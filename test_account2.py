@@ -32,3 +32,6 @@ def setup_method(self):
         assert self.p1.deposit(1.2) is True
 
         assert self.p1.get_balance() == approx(16.2, abs=0.001)
+
+
+
